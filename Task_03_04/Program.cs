@@ -7,7 +7,21 @@
        * – ввод останавливается и выводиться количество строк введенных пользователем.
        */
         static void Main(string[] args)
-        { 
+        {
+            int a = 0;
+
+            while (true)
+            {
+                string text = Console.ReadLine();
+                if (text == "exit" || text == "") 
+                break;
+                Console.Clear();
+                a++;
+
+
+            }
+            Console.WriteLine("Количество строк введенных пользователем " + a);
+
             
         }
     }
