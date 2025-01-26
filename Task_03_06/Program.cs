@@ -14,6 +14,6 @@
                 double y = Math.Abs(x);
                 Console.WriteLine($"{y:F1}\t{x:F1}");
             }
-            }
+        }
         }
     }
