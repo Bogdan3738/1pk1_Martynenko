@@ -12,7 +12,7 @@
             {
                 double g = 9.8 / 2;
                 double v = g * t;
-                Console.WriteLine(v);
+                Console.WriteLine( "Таблица скорости(через каждые 0.5с)"+v);
             }
             
 
