@@ -25,7 +25,7 @@
             }
 
             Console.WriteLine("Исходная матрица:");
-            PrintMatrix(matrix);
+            
 
             int minElement = int.MaxValue;
             for (int i = 0; i < n; i++)
@@ -51,7 +51,7 @@
             }
 
             Console.WriteLine("\nМатрица после умножения на минимальный элемент:");
-            PrintMatrix(multipliedMatrix);
+            
 
             int[] flatArray = new int[n * n];
             int index = 0;
@@ -70,7 +70,7 @@
             int[] topFive = flatArray[..5];
 
             Console.WriteLine("\nМатрица с выделенными максимальными элементами:");
-            PrintMatrixWithHighlights(multipliedMatrix, topFive);
+            
         }
     }
 }
