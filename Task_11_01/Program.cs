@@ -13,11 +13,11 @@
             int a = 5;
             int b = 10;
 
-            Console.WriteLine("До изменения: a = {a}, b = {b}");
+            Console.WriteLine($"До изменения: a = {a}, b = {b}");
 
             Swap(ref a, ref b);
 
-            Console.WriteLine("После изменения: a = {a}, b = {b}");
+            Console.WriteLine($"После изменения: a = {a}, b = {b}");
         }
 
         static void Swap(ref int i, ref int j)
